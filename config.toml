@@ -78,12 +78,20 @@ googleAnalytics = ""
       title = "Carousel"
       subtitle = "carousel subtitle"
 
+      [[params.carousel.row]]
+
+        [[params.carousel.row.list]]
+        title = "Western Bulldogs"
+        description = " As General Manager of Commercial Operations I was responsible for generating $10m in revenue with key achievements being selling the naming rights to Whitten Oval and renewing major sponsors to club record dollars and tenure"
+
 
   # Carousel section
   [params.martin]
       enable = true
       title = "martin"
       subtitle = "martin"
+      # description = "I started MDM Consulting after 20 years, and have worked on some of the world’s leading brands.  I have extensive experience across the full marketing mix, particularly in branding, marketing strategy development, sponsorship and events.
+# My ability to identify and solve problems quickly and tackle complex situations methodically ensures I can provide focused, independent recommendations to my clients."
 
 	# Services section
 	[params.services]
@@ -101,7 +109,7 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-bullhorn"
                 title = "Creative Services"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                description = "Stuff ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
                 icon = "fa-diamond"
