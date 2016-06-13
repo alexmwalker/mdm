@@ -34,14 +34,16 @@ googleAnalytics = ""
     email = "alex.m.walker@gmail.com"
 	# email = "martin@mdmmarketing.com.au"
 
-    # Link custom assets relative to /statuc
-    custom_css = ['css/carousel.css']
+    # Link custom assets relative to /static
+    # custom_css = ['css/carousel.css']
+		custom_css = [ "css/carousel.css", "css/extra.css"]
+		# custom_css = ['css/extra.css']
     custom_js  = []
 
 
 	# Navigation
 	[params.navigation]
-		brand = "MDM Consultancy"
+		brand = "MDM Consulting"
 		services = "Services"
 		about = "About"
 		portfolio = "Portfolio"
@@ -71,6 +73,10 @@ googleAnalytics = ""
 		title = "I'm Martin Dench"
 		subtitle = "How can I help?"
 		buttonText = "Let's talk"
+		blurb1 = "At MDM Consulting, we're all about looking at things differently. We love hunting for the missed opportunities. We love sniffing out the cost-effective wins. We love finding the hidden markets."
+ 		blurb2 = "It might be a simple tweak to an existing program that begins with <em>“What if we…?”</em>. Or it could be a completely new program for the next evolution of your business."
+ 		blurb3 = "Our experience, in conjunction with an extensive information gathering and research component, lets us provide a detailed overview of your challenges before delivering a comprehensive roadmap on how to move forward."
+ 		blurb4 = "Having worked with some of the world’s leading brands – Bosch, King Gee, Hard Yakka and the Western Bulldogs – I am perfectly positioned to tackle any challenge you have and become a key strategic partner to your business."
 
   # Carousel section
   [params.carousel]
@@ -87,7 +93,7 @@ googleAnalytics = ""
 
   # Carousel section
   [params.martin]
-      enable = true
+      enable = false
       title = "martin"
       subtitle = "martin"
       # description = "I started MDM Consulting after 20 years, and have worked on some of the world’s leading brands.  I have extensive experience across the full marketing mix, particularly in branding, marketing strategy development, sponsorship and events.
@@ -97,24 +103,41 @@ googleAnalytics = ""
 	[params.services]
     enable = true
 		title = "Services"
-		subtitle = "What I can deliver to you"
+		subtitle = "MDM Marketing offers a range of services including:"
+		blurb = "I will challenge what you know about your business and the markets you operate in. I might even confirm you know your stuff! Ultimately I will provide a new perspective through a fresh set of eyes on the challenges your business is facing and importantly provide solutions"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-bullseye"
-                title = "Insights & Strategy"
+                title = "Strategy"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
                 icon = "fa-bullhorn"
-                title = "Creative Services"
+                title = "Marketing"
                 description = "Stuff ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
-                icon = "fa-diamond"
-                title = "Media Reach"
+                icon = "fa-map-o"
+                title = "Planning"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+				    [[params.services.row.list]]
+				        icon = "fa-balance-scale"
+				        title = "Review"
+				        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		        [[params.services.row.list]]
+			          icon = "fa-thumbs-o-up"
+	              title = "Sponsorship"
+	              description = "Stuff ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+			      [[params.services.row.list]]
+	              icon = "fa-diamond"
+		            title = "Branding"
+			          description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
 
 	# Portfolio section
 	[params.portfolio]
