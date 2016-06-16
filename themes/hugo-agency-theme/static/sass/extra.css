@@ -1,0 +1,22 @@
+/* line 1, /Users/alexmwalker/ownCloud/Sites/martin-dench/martin/themes/hugo-agency-theme/static/sass/extra.scss */
+div {
+  /* outline: 1px red dashed; */ }
+
+/* line 5, /Users/alexmwalker/ownCloud/Sites/martin-dench/martin/themes/hugo-agency-theme/static/sass/extra.scss */
+.logo {
+  width: 70%; }
+
+/* line 9, /Users/alexmwalker/ownCloud/Sites/martin-dench/martin/themes/hugo-agency-theme/static/sass/extra.scss */
+.intro-text .btn-xl {
+  margin-bottom: 50px; }
+
+/* line 12, /Users/alexmwalker/ownCloud/Sites/martin-dench/martin/themes/hugo-agency-theme/static/sass/extra.scss */
+.intro-text .intro-heading, .intro-text p, .intro-text .intro-lead-in {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.75); }
+
+/* line 15, /Users/alexmwalker/ownCloud/Sites/martin-dench/martin/themes/hugo-agency-theme/static/sass/extra.scss */
+.intro-text p {
+  text-align: left;
+  font-size: 16px; }
+
+/*# sourceMappingURL=extra.css.map */
