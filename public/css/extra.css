@@ -1,0 +1,17 @@
+div {
+  /* outline: 1px red dashed; */ }
+
+.logo {
+  width: 70%; }
+
+.intro-text .btn-xl {
+  margin-bottom: 50px; }
+
+.intro-text .intro-heading, .intro-text p, .intro-text .intro-lead-in {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.75); }
+
+.intro-text p {
+  text-align: left;
+  font-size: 16px; }
+
+/*# sourceMappingURL=extra.css.map */

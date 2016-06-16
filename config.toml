@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://mdmmarketing.com.au"
+baseurl = "http://mdmmarketing.com.au/"
 languageCode = "en-us"
 title = "Martin Dench"
 theme = "hugo-agency-theme"
