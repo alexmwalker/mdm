@@ -1,0 +1,35 @@
+{{ "<!-- Hero -->" | safeHTML }}
+<header>
+    <div class="container">
+
+        <div class="row">
+          <div class="col-md-5">
+
+
+          </div>
+        <div class="intro-text col-md-7">
+
+            <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
+            <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
+            <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
+
+            <p>{{ with .Site.Params.hero.blurb1 }}{{ . | markdownify }}{{ end }}</p>
+            <p>{{ with .Site.Params.hero.blurb2 }}{{ . | markdownify }}{{ end }}</p>
+            <p>{{ with .Site.Params.hero.blurb3 }}{{ . | markdownify }}{{ end }}</p>
+            <p>{{ with .Site.Params.hero.blurb4 }}{{ . | markdownify }}{{ end }}</p>
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+</header>
+{{ "<!-- Services Section -->" | safeHTML }}
