@@ -107,24 +107,44 @@ googleAnalytics = ""
 	[params.services]
     enable = true
 		title = "Services"
-		subtitle = "What I can deliver to you"
+		subtitle = "MDM Marketing offers a range of services including:"
+        # blurb = "I will challenge what you know about your business and the markets you operate in. I might even confirm you know your stuff! Ultimately I will provide a new perspective through a fresh set of eyes on the challenges your business is facing and importantly provide solutions."
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-bullseye"
-                title = "Insights & Strategy"
+                icon = "fa-compass"
+                title = "Insight & Strategy"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
                 icon = "fa-bullhorn"
-                title = "Creative Services"
+                title = "Marketing"
+                description = "Stuff ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+            [[params.services.row.list]]
+                icon = "fa-map-o"
+                title = "Planning"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                
+            [[params.services.row.list]]
+                icon = "fa-balance-scale"
+                title = "Review"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+            [[params.services.row.list]]
+                icon = "fa-hand-peace-o"
+                title = "Sponsorship"
                 description = "Stuff ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
                 icon = "fa-diamond"
-                title = "Media Reach"
+                title = "Branding"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                
+                
+                
+                
 
 	# Portfolio section
 	[params.portfolio]
